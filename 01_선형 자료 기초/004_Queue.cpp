@@ -8,7 +8,7 @@ using namespace std;
 
 // Queue (FIFO : First-In_First_Out 선입선출)
 
-// front << [1][2][3][4] << rear
+// 출 << [1][2][3][4] << 입
 // 대기열
 
 // - 시간복잡도
