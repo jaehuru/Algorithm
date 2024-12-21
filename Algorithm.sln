@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_탐색 트리", "04_탐�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_정렬", "05_정렬\05_정렬.vcxproj", "{F0242B62-0DA5-41C8-9B73-ACB320665E3D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_해시테이블", "06_해시테이블\06_해시테이블.vcxproj", "{72B76719-2138-4911-8129-AF7F5FB7F9F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{F0242B62-0DA5-41C8-9B73-ACB320665E3D}.Release|x64.Build.0 = Release|x64
 		{F0242B62-0DA5-41C8-9B73-ACB320665E3D}.Release|x86.ActiveCfg = Release|Win32
 		{F0242B62-0DA5-41C8-9B73-ACB320665E3D}.Release|x86.Build.0 = Release|Win32
+		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Debug|x64.ActiveCfg = Debug|x64
+		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Debug|x64.Build.0 = Debug|x64
+		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Debug|x86.Build.0 = Debug|Win32
+		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Release|x64.ActiveCfg = Release|x64
+		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Release|x64.Build.0 = Release|x64
+		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Release|x86.ActiveCfg = Release|Win32
+		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

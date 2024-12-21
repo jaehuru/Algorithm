@@ -10,7 +10,7 @@ using namespace std;
 
 // 오늘의 주제 : 힙정렬과 병합정렬
 
-// 힙 정렬(NlogN)
+// 힙 정렬 O(NlogN)
 void HeapSort(vector<int>& v)
 {
 	priority_queue<int, vector<int>, greater<int>> pq;
@@ -29,7 +29,7 @@ void HeapSort(vector<int>& v)
 	}
 }
 
-// 병합 정렬(NlogN)
+// 병합 정렬 O(NlogN)
 
 // 분할 정복 (Divide and Conquer)
 // - 분할 (Divide)		문제를 더 단순하게 분할

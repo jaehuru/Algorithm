@@ -12,12 +12,15 @@ using namespace std;
 
 // [5][1][3][7][9][2][4][6][8]
 // [p][l]                  [h]
+
+
 int Partition(vector<int>& v, int left, int right)
 {
 	int pivot = v[left];
 	int low = left + 1;
 	int high = right;
 
+	// O(N)
 	while (low <= high)
 	{
 		while (low <= right && pivot >= v[low])
@@ -34,6 +37,8 @@ int Partition(vector<int>& v, int left, int right)
 	return high;
 }
 
+// O(N^2) < ÃÖ¾Ç
+// O(NlogN) < Æò±Õ
 void QuickSort(vector<int>& v, int left, int right)
 {
 	if (left > right)
