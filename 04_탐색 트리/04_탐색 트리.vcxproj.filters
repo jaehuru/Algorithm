@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\002_이진_탐색_트리">
+      <UniqueIdentifier>{f372fab3-1111-43db-a5c5-e1a3d73b72b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\003_레드_블랙_트리">
+      <UniqueIdentifier>{be026d19-e5e0-4fc6-b826-b7c8337bd1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\001_이진_탐색">
+      <UniqueIdentifier>{9c2bbb06-432f-4564-acca-f3f6203184b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinarySearchTree.cpp">
+      <Filter>소스 파일\002_이진_탐색_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="002_이진_탐색_트리.cpp">
+      <Filter>소스 파일\002_이진_탐색_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="003_레드_블랙_트리.cpp">
+      <Filter>소스 파일\003_레드_블랙_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBlackTree.cpp">
+      <Filter>소스 파일\003_레드_블랙_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="001_이진_탐색.cpp">
+      <Filter>소스 파일\001_이진_탐색</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>소스 파일\002_이진_탐색_트리</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBlackTree.h">
+      <Filter>소스 파일\003_레드_블랙_트리</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
