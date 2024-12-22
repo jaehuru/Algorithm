@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "Player.h"
 #include "Board.h"
-#include <stack>
+
 
 void Player::Init(Board* board)
 {
@@ -17,7 +17,7 @@ void Player::Update(uint64 deltaTick)
 {
 	if (_pathIndex >= _path.size())
 	{
-		_board->GenerateMap();
+		_board->GenerateMap_Kruskal();
 		Init(_board);
 		return;
 	}
@@ -204,7 +204,7 @@ void Player::AStar()
 
 	enum
 	{
-		DIR_COUNT = 8
+		DIR_COUNT = 4
 	};
 
 	Pos front[] =

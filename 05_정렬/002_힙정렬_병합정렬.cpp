@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// 오늘의 주제 : 힙정렬과 병합정렬
+// 힙정렬과 병합정렬
 
 // 힙 정렬 O(NlogN)
 void HeapSort(vector<int>& v)

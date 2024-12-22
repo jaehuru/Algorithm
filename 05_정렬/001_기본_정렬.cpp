@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// 오늘의 주제 : 정렬
+//  정렬
 
 // -> A* OpenList (PQ)
 // -> C# List = C++ vector

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// 오늘의 주제 : 해시테이블
+// 해시테이블
 
 // Q) map vs hash_map (C++ 표준 unordered_map)
 

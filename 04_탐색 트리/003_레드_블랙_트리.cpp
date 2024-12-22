@@ -7,7 +7,7 @@ using namespace std;
 #include "RedBlackTree.h"
 #include <thread>
 
-// 오늘의 주제 : 레드 블랙 트리
+// 레드 블랙 트리
 
 //   [20]
 // [10]   [30]

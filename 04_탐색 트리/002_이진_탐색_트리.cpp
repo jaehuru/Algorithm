@@ -6,7 +6,7 @@
 using namespace std;
 #include "BinarySearchTree.h"
 
-// 오늘의 주제 : 이진 탐색 트리
+// 이진 탐색 트리
 
 //   [20]
 // [10]   [30]

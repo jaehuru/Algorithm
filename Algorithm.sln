@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_정렬", "05_정렬\05_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_해시테이블", "06_해시테이블\06_해시테이블.vcxproj", "{72B76719-2138-4911-8129-AF7F5FB7F9F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_최소 스패닝 트리", "07_최소 스패닝 트리\07_최소 스패닝 트리.vcxproj", "{69B3FFF3-008E-45F5-81BC-82EAFB67885F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Release|x64.Build.0 = Release|x64
 		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Release|x86.ActiveCfg = Release|Win32
 		{72B76719-2138-4911-8129-AF7F5FB7F9F1}.Release|x86.Build.0 = Release|Win32
+		{69B3FFF3-008E-45F5-81BC-82EAFB67885F}.Debug|x64.ActiveCfg = Debug|x64
+		{69B3FFF3-008E-45F5-81BC-82EAFB67885F}.Debug|x64.Build.0 = Debug|x64
+		{69B3FFF3-008E-45F5-81BC-82EAFB67885F}.Debug|x86.ActiveCfg = Debug|Win32
+		{69B3FFF3-008E-45F5-81BC-82EAFB67885F}.Debug|x86.Build.0 = Debug|Win32
+		{69B3FFF3-008E-45F5-81BC-82EAFB67885F}.Release|x64.ActiveCfg = Release|x64
+		{69B3FFF3-008E-45F5-81BC-82EAFB67885F}.Release|x64.Build.0 = Release|x64
+		{69B3FFF3-008E-45F5-81BC-82EAFB67885F}.Release|x86.ActiveCfg = Release|Win32
+		{69B3FFF3-008E-45F5-81BC-82EAFB67885F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
